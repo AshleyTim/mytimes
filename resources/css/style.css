@@ -1,0 +1,102 @@
+header {
+  display: flex;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  border-bottom: 1px solid black;
+  align-items: center;
+  padding: 10px 10px;
+}
+
+.logo {
+  display: flex;
+  color: MediumAquamarine;
+  display: inline-flex;
+  flex-grow: 1;
+  border: 1px solid black; /*to remove when complete*/
+}
+
+.logo h3 {
+  padding-left: 10px;
+}
+
+.nav {
+  display: flex;
+  width: auto;
+  justify-content: space-between;
+  margin-right: 30px;
+}
+
+.nav a {
+  color: black;
+  padding: 10px 10px;
+}
+
+div {
+  border: 1px solid black; /*to remove when complete*/
+
+}
+
+.content {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto 78px auto;
+
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.column.large {
+  display: flex;
+  display: inline-block;
+  width: 630px;
+
+}
+
+.column.medium {
+  display: flex;
+  display: inline-block;
+  width: 300px;
+
+}
+
+.column.small {
+  display: flex;
+  display: inline-block;
+  width: 240px;
+}
+
+.lead-story
+.image-content
+ {
+  display: flex;
+  background-image: url("../images/img-story-main.png");
+  width: 630px;
+  height: 300px;
+  margin-top: 0;
+  font-size: 40px;
+  text-align: left;
+}
+
+.child-image {
+  background-image: url("../images/img-story-2.png");
+}
+
+.image-content {
+  display: flex;
+  height: 300px;
+  margin-top: 15px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  justify-content: center;
+}
+
+.camera-image {
+  background-image: url("../images/img-story-3.png");
+}
