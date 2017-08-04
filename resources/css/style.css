@@ -152,6 +152,7 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
   width: 100%;
   height: 300px;
   background-color: MediumAquamarine;
@@ -185,8 +186,5 @@ footer .title {
 
 footer .copyright {
   display: block;
-}
-
-div {
-  border: 1px solid grey;
+  margin-top: 15px;
 }
